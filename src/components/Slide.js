@@ -21,7 +21,7 @@ const Slide = ({ img, title, mainTitle, price }) => {
         <div className="bg-rose-400 text-white font-semibold text-sm md:text-base p-1 md:p-2 px-4 rounded-lg inline-block hover:bg-slate-900 transition-all ease-in-out duration-300 cursor-pointer">Shop Now</div>
       </div>
 
-      <Image src={img} alt="banner" width={1600} height={600} />
+      <Image className="min-h-[250px] sm:min-h-fit bg-cover" src={img} alt="banner" width={1600} height={600} />
     </div>
   );
 };

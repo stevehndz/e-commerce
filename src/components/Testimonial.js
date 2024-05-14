@@ -8,7 +8,7 @@ const Testimonial = () => {
         <h2 className="font-bold text-2xl pb-4">Testimonials</h2>
 
         <div className="grid lg:grid-cols-[300px,1fr] gap-4">
-          <div className="border-none hover:shadow-lg rounded-2xl grid place-items-center p-6 lg:p-8">
+          <div className="border-none hover:shadow-lg hover:shadow-rose-400/50 ease-in-out duration-300 rounded-2xl grid place-items-center p-6 lg:p-8">
             <div className="text-center flex flex-col items-center gap-1">
               <Image
                 className="rounded-full inline-block"
@@ -35,10 +35,10 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="bg-red-600 bg-hero-image bg-cover h-[500px] rounded-2xl grid place-items-center hover:shadow-lg transition-all ease-in duration-400 cursor-pointer">
-            <div className="bg-gray-200 min-w-[270px] sm:min-w-[300px] md:min-w-[500px] rounded-xl py-8 sm:px-8 px-2 grid place-items-center gap-3 shadow-lg">
+            <div className="min-w-[270px] backdrop-blur-lg sm:min-w-[300px] md:min-w-[500px] rounded-xl py-8 sm:px-8 px-2 grid place-items-center gap-3 shadow-lg">
               <button className="bg-slate-900 text-white p-2 border-none rounded-md">25% Discount</button>
-              <h2 className="font-extrabold text-2xl text-slate-900">Summer Collection</h2>
-              <p className="text-gray-500 text-lg">
+              <h2 className="font-extrabold text-2xl text-gray-100">Summer Collection</h2>
+              <p className="text-slate-900 text-lg">
                 Starting at $20 <strong>Shop now</strong>
               </p>
             </div>
