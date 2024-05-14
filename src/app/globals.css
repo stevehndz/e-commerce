@@ -27,6 +27,6 @@
   }
 
   .navbar__link {
-    @apply hover:text-rose-400 transition-all duration-300;
+    @apply hover:text-rose-400 hover:drop-shadow-lg transition-all duration-300;
   }
 }
